@@ -267,6 +267,10 @@ or LXDE
     PREFERRED=lxsession
     EOF   
 
+If you want to boot into the graphical desktop that you have configured.
+
+    systemctl set-default graphical.target
+
 Building your own u-boot
 --------------
     git clone https://github.com/rabeeh/u-boot-imx6.git
